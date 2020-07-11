@@ -2,7 +2,7 @@ spring:
   application:
     name: api-gateway
 server:
-  port: 14000
+  port: 15000
 eureka:
   client:
     service-url:
