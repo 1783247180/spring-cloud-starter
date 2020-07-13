@@ -3,11 +3,6 @@ server:
 spring:
   application:
     name: user-01
-  redis:
-    port：6379
-    host：39.98.115.245
-  cache：
-    cache-names：c1
   datasource:
     name: aliyunDatasource
     driver-class-name: com.mysql.jdbc.Driver
