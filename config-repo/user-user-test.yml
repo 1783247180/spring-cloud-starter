@@ -5,7 +5,7 @@ spring:
     name: user-01
   datasource:
     name: aliyunDatasource
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://39.98.115.245:3306/user?serverTimezone=CTT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
     username: root
     password: 123456  
