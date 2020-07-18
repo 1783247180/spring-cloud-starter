@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: user-01
+  boot:
+    admin:
+      client:
+        url: http://localhost:8902  
   datasource:
     name: aliyunDatasource
     driver-class-name: com.mysql.cj.jdbc.Driver
